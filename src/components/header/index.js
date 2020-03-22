@@ -42,7 +42,7 @@ export default () => {
       css={`
         width: 100%;
         padding: 12px;
-        box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
         position: fixed;
         top: 0;
         z-index: 25;
@@ -54,7 +54,7 @@ export default () => {
           <Logo />
           <Nav
             direction="row"
-            pad={{ horizontal: "12px" }}
+            pad={{ left: "12px" }}
             gap="medium"
             css={HideWhenSmall}
           >
@@ -78,7 +78,7 @@ export default () => {
             <OutboundLink
               rel="noopener noreferrer"
               target="_blank"
-              href="https://www.gatsbyjs.org"
+              href="https://github.com/djbatt/Gromgat-Starter-for-GatsbyJS"
               css={`
                 text-decoration: none;
                 height: max-content;

@@ -33,7 +33,7 @@ export default () => {
       file(relativePath: { eq: "noaa-sDCG1hTV8mI-unsplash.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 2000) {
-            ...GatsbyImageSharpFluid_noBase64
+            ...GatsbyImageSharpFluid
           }
         }
       }
